@@ -1,0 +1,664 @@
+/* Google Font start */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+
+/* Google Font End */
+/* --- Common css start ------ */
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.display {
+    display: flex;
+}
+
+#container_row {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #000;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --bg-color: #E6533C;
+    --p_color: #FFFFFF
+}
+
+/* --- Common css End ------ */
+/* ---- header part start ----- */
+#container_row {
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+}
+
+.main_manu_col img {
+    width: 100%;
+}
+
+.main_manu {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.main_manu {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+    padding-bottom: 32px;
+}
+
+.main_manu_bar ul {
+    display: flex;
+    gap: 47px;
+}
+
+.main_manu_bar ul li a {
+    font-size: 1.125rem;
+    color: #fff;
+}
+
+#btn_navber {
+    padding: 8px 20px;
+    font-weight: 600;
+    background-color: var(--bg-color);
+    border-radius: 46px;
+}
+
+#icons {
+    color: #fff;
+    width: 40px;
+    visibility: hidden;
+}
+
+/* ---- header part End  ----- */
+/* ---- banner part start ----- */
+.banner_row {
+    gap: 167px;
+    align-items: center;
+    margin-left: 190px;
+    margin-right: 214px;
+    position: relative;
+}
+
+.banner-text_col {
+    width: 520px;
+}
+
+.banner_text {
+    font-weight: 900;
+    font-size: 4.87rem;
+    color: #fff;
+    margin: 0;
+}
+
+.banner_para {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    color: var(--p_color);
+}
+
+#banner-text {
+    font-family: "Parisienne", cursive;
+    font-size: italic;
+}
+
+.banner_btn button {
+    padding: 16px 46px;
+    border-radius: 42px;
+    background-color: var(--bg-color);
+}
+
+#banner {
+    background-color: #000;
+}
+
+.banner_btn {
+    gap: 14px;
+}
+
+.banner_btn button p {
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+}
+
+.banner_img_col img {
+    width: 100%;
+}
+
+/* ---- position btn */
+.position_btn {
+    flex-direction: column;
+    align-items: center;
+}
+
+.position_btn {
+    width: 193px;
+    background-color: #303030;
+    border: 1px solid #FFFFFF;
+    ;
+    border-radius: 12px;
+}
+
+.position_btn {
+    position: absolute;
+    margin: -476px 102px 87px 1100px;
+}
+
+.position_btn h2 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 17px;
+}
+
+.position_btn p {
+    font-size: 13px;
+    color: #EFEDE8;
+    margin-top: 0;
+}
+
+.position_btn_col {
+    width: 40px;
+    height: 40px;
+    margin-left: 23px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+}
+
+.position_btn-col h3 {
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.position_btn_row {
+    position: absolute;
+    margin: -152px 0 0 764px;
+    ;
+}
+
+.position_btn_row {
+    width: 206px;
+    border: 1px solid #FFFFFF;
+    background-color: #303030;
+    gap: 8px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+#position_icons {
+    position: absolute;
+    visibility: hidden;
+    margin: 13px 0 0 16px;
+    color: #fff;
+}
+
+.position_btn-col p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #EFEDE8;
+}
+
+/* ---- banner part End  ----- */
+/* ------ Changes part starts ----------- */
+.changes_section {
+    width: 1044px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.changes_row {
+    width: 670px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.changes_row h2 {
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 14px;
+    color: #fff;
+}
+
+.changes_row p {
+    width: 671px;
+    color: #FFFFFF;
+}
+
+/* changes part start */
+.changes_row-tiems {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.changes_row_times {
+    width: 231px;
+}
+
+.changes_row_times img {
+    width: 180px;
+    border-radius: 100px;
+    border: 4px;
+    margin: 0 25px 25px;
+}
+
+.changes_row_text {
+    width: 230px;
+    text-align: center;
+}
+
+.changes_row_text h2 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-bottom: 6px;
+    color: #fff;
+}
+
+.changes_row_text p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+/*-------- Run part start ------------- */
+.ran_row {
+    width: 1060px;
+    margin: 0 auto;
+    background-color: #222222;
+    border-radius: 18px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.ran_col_text {
+    width: 443px;
+    margin: 40px 0 40px 54px;
+}
+
+.ran_col_text h2 {
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+    margin: 0;
+}
+
+.ran_col_img img {
+    width: 100%;
+}
+
+.ran_col_img {
+    margin: 30px 32px 30px 0;
+}
+
+.ran_col_text p {
+    margin-top: 14px;
+    margin-bottom: 35px;
+    color: #FFFFFF;
+}
+
+.ran_col_text a {
+    padding: 16px 70px;
+    background-color: var(--bg-color);
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 42px;
+}
+
+/* ------ BIM part start -------- */
+.bim_calcultor_row {
+    margin: 0 auto;
+    width: 670px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.bim_calcultor_row h2 {
+    font-weight: 900;
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.bim_calcultor_row p {
+    color: #FFFFFF;
+    margin-top: 14px;
+}
+
+/*  table part start */
+.bim_table h2 {
+    font-weight: 900;
+    font-size: 28px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.bim_table table {
+    border: 1px solid #FFFFFF;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* th{
+    font-weight: 500;
+    font: 16px;
+} */
+td,
+tr,
+th {
+    border: 1px solid #FFFFFF;
+    padding: 13px 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+td,
+tr {
+    color:
+        rgba(255, 255, 255, 0.5);
+}
+
+.bmi_col_all {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bmi_all {
+    margin: 50px 180px;
+    align-items: center;
+}
+
+/*----- BMI Form part start ------ */
+.bim_forme {
+    width: 577px;
+}
+
+.bim_text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bim_text h2 {
+    font-weight: 900;
+    font-size: 28px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.bim_text p {
+    color: #fff;
+    margin-top: 14px;
+}
+
+.bim_form_col input {
+    width: 242px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 13px 20px;
+}
+
+#name {
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 13px 20px;
+}
+
+#Name {
+    width: 565px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 13px 0 13px 20px;
+    margin-bottom: 30px;
+}
+
+.bim_form_col a {
+    padding: 16px 70px;
+    background-color: var(--bg-color);
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 42px;
+}
+
+/* ------ BIM calculator chart -------- */
+.bim_row {
+    background-color: #222222;
+}
+
+/* -------- Team part start ------ */
+.team_container_text {
+    width: 671px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.team_container_text h2 {
+    font-weight: 900;
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.team_container_text p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+}
+.team_container_main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 42px;
+}
+.team_container {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.team_container_main {
+    width: 1060px;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+   padding: 15px;
+}
+.team_container_img{
+    width: 325px;
+    height: 270px;
+    border-radius: 18px;
+    background: url(./images/team_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.img_1{
+    background-image: url(./images/team_7.png);
+}
+.img_2{
+    background-image: url(./images/team_3.png);
+}
+.img_3{
+    background-image: url(./images/team_4.png);
+}
+.img_4{
+    background-image: url(./images/team_5.png);
+}
+.img_5{
+    background-image: url(./images/team_6.png);
+}
+.team_container_col {
+    position: absolute;
+    margin-left: 17px;
+    margin-top: 214px;
+}
+.team_container_col h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.team_container_col p{
+    margin-top: 3px;
+    color:rgba(255, 255, 255, 0.5);
+}
+/* ============= Footer part start ======== */
+.footer_container{
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 1440px;
+    background-color:#68636380;
+}
+.footer_companies{
+    width: 1060px;
+    margin: 0 auto;
+    border: 1px solid paleturquoise;
+}
+.footer_companies_text{
+    width: 445px;
+    border: 1px solid yellow;
+}
+.footer_companies_text h1{
+    font-weight: 800;
+    font-size: 70px;
+    font-style: italic;
+    margin: 0;
+    color: var(--bg-color);
+}
+.footer_companies_text p{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer_started_row{
+    width: 180px;
+    border: 1px solid green;
+}
+.footer_started_row h2{
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.footer_started_row ul{
+    padding: 0;
+   margin-top: 35px;
+}
+.footer_started_row a{
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* ----- @Media quare start ---*/
+@media screen and (max-width:576px) {
+
+    .banner_row,
+    .ran_row,
+    .bmi_col_all {
+        flex-direction: column;
+    }
+
+    .main_manu_bar ul li a {
+        display: none;
+    }
+
+    #icons {
+        visibility: inherit;
+    }
+
+    .position_btn {
+        position: absolute;
+        margin: -530px 102px 87px 729px;
+    }
+
+    .position_btn_row {
+        position: absolute;
+        margin: -332px 0 0 519px;
+    }
+
+    #position_icons {
+        visibility: inherit;
+    }
+
+    .changes_row-tiems,
+    .team_container_main {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .changes_row {
+        width: 318px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 58px;
+    }
+
+    .changes_row h2 {
+        font-size: 32px;
+    }
+
+    .changes_row p {
+        width: 318px;
+        font-size: 14px;
+    }
+
+    .bim_calcultor_row {
+        width: 353px;
+    }
+
+    .bim_text {
+        margin-top: 50px;
+    }
+    .team_container_text{
+        width: 310px;
+    }
+    .team_container_text h2{
+        font-size: 32px;
+    }
+    /* ----- Media quare End --- */
