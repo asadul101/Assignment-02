@@ -351,7 +351,10 @@ a {
     color: #FFFFFF;
     margin: 0;
 }
-
+.bmi_col_all{
+    justify-content: space-between;
+    align-items: center;
+}
 .bim_calcultor_row p {
     color: #FFFFFF;
     margin-top: 14px;
@@ -393,11 +396,10 @@ tr {
         rgba(255, 255, 255, 0.5);
 }
 
-.bmi_col_all {
+.bmi_col_all_container {
+    width: 577px;
     padding-top: 50px;
     padding-bottom: 50px;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .bmi_all {
