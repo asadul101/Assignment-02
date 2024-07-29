@@ -502,6 +502,7 @@ tr {
 .team_container {
     width: 1060px;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 .team_container_main {
@@ -553,18 +554,20 @@ tr {
 /* ============= Footer part start ======== */
 .footer_container{
     margin: 0 auto;
-    border: 1px solid red;
     width: 1440px;
     background-color:#68636380;
+}
+.footer_companies_all{
+    justify-content: space-between;
+    align-items: center;
 }
 .footer_companies{
     width: 1060px;
     margin: 0 auto;
-    border: 1px solid paleturquoise;
+    padding: 66px 190px 80px 190px;
 }
 .footer_companies_text{
     width: 445px;
-    border: 1px solid yellow;
 }
 .footer_companies_text h1{
     font-weight: 800;
@@ -579,7 +582,6 @@ tr {
 }
 .footer_started_row{
     width: 180px;
-    border: 1px solid green;
 }
 .footer_started_row h2{
     margin: 0;
@@ -591,8 +593,26 @@ tr {
     padding: 0;
    margin-top: 35px;
 }
+.footer_started_row li{
+    padding-bottom:10px ;
+}
 .footer_started_row a{
     font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer_boder_container{
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 1060px;
+    border: 2px solid #2423231a;
+}
+.footer_container_text{
+    width: 318px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.footer_container_text p{
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
 }
 /* ----- @Media quare start ---*/
@@ -600,7 +620,8 @@ tr {
 
     .banner_row,
     .ran_row,
-    .bmi_col_all {
+    .bmi_col_all,
+    .footer_companies_all {
         flex-direction: column;
     }
 
