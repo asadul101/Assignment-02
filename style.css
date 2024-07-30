@@ -235,6 +235,7 @@ a {
     width: 1044px;
     margin: 0 auto;
     margin-bottom: 100px;
+    padding-top: 50px;
 }
 
 .changes_row {
@@ -255,7 +256,39 @@ a {
     width: 671px;
     color: #FFFFFF;
 }
-
+/* ====== Health part start ======= */
+.health_container{
+    width: 1060px;
+    margin: 0 auto;
+   border-radius: 5px;
+    background-color: gray;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+.health_container_text h2{
+    font-weight: 800;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+.health_manu{
+    width: 800px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.health_manu img{
+    width: 150px;
+    border-radius: 8px;
+}
+.health_manu{
+    background-color: #C2D8B9;
+    align-items: center;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
 /* changes part start */
 .changes_row-tiems {
     display: grid;
@@ -623,10 +656,14 @@ tr {
     .banner_row,
     .ran_row,
     .bmi_col_all,
-    .footer_companies_all {
+    .footer_companies_all,
+    .health_manu {
         flex-direction: column;
     }
-
+    .health_text{
+        width: 550px;
+        text-align: center;
+    }
     .main_manu_bar ul li a {
         display: none;
     }
